@@ -1,6 +1,4 @@
-import warnings
 import uvicorn
-warnings.simplefilter("ignore", UserWarning)
 from fastapi import FastAPI, UploadFile, File
 from fastapi.logger import logger
 from mtcnn import MTCNN
