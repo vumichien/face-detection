@@ -1,6 +1,6 @@
 numpy
 opencv-python
-torchvision
+torchvision==0.9.0
 pillow
 uvicorn
 fastapi

@@ -5,7 +5,6 @@ from torchvision.ops.boxes import batched_nms
 from PIL import Image
 import numpy as np
 import os
-import math
 
 # OpenCV is optional, but required if using numpy arrays instead of PIL
 try:
