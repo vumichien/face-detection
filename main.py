@@ -67,4 +67,4 @@ def predict(file: UploadFile = File(...),  threshold: float = 0.1):
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", port=5000, log_level="info")
+    uvicorn.run("main:app", log_level="info")
